@@ -1,0 +1,122 @@
+Exercise 1: Filtering Even Numbers
+
+Task: Given a list of integers, filter out the even numbers and collect them into a new list.
+
+List<Integer> filterEvenNumbers(List<Integer> numbers);
+
+Setup:
+
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+
+
+//========================================================================================================
+
+Exercise 2: Converting Strings to Uppercase
+
+Task: Given a list of strings, convert each string to uppercase and collect the results into a new list.
+
+
+List<String> convertToUpperCase(List<String> strings);
+
+Setup:
+
+List<String> strings = Arrays.asList("apple", "banana", "cherry", "date");
+
+//========================================================================================================
+
+Exercise 3: Finding Strings with Length Greater Than 3
+
+Task: Given a list of strings, find all strings with a length greater than 3 and collect them into a new list.
+
+
+List<String> findLongStrings(List<String> strings);
+
+Setup:
+
+List<String> strings = Arrays.asList("cat", "elephant", "dog", "ant", "tiger");
+
+//========================================================================================================
+
+Exercise 4: Calculating the Sum of a List of Integers
+
+Task: Given a list of integers, calculate the sum of all the numbers using streams.
+
+int calculateSum(List<Integer> numbers);
+
+Setup:
+
+List<Integer> numbers = Arrays.asList(10, 20, 30, 40, 50);
+
+//========================================================================================================
+
+Exercise 5: Finding the First Word That Starts with 'B'
+
+
+Task: Given a list of strings, find the first word that starts with the letter 'B'. Return the word or Optional.empty() if no such word exists.
+
+Optional<String> findFirstWordStartingWithB(List<String> words);
+
+Setup:
+
+List<String> words = Arrays.asList("apple", "banana", "cherry", "blueberry", "date");
+
+//========================================================================================================
+
+Exercise 6: Joining Strings with a Comma
+
+Task: Given a list of strings, join them into a single string, separated by commas.
+
+String joinStringsWithComma(List<String> strings);
+
+Setup:
+
+List<String> strings = Arrays.asList("one", "two", "three", "four");
+
+//========================================================================================================
+
+Exercise 7: Counting Empty Strings
+
+Task: Given a list of strings, count how many strings are empty.
+
+long countEmptyStrings(List<String> strings);
+
+Setup:
+
+List<String> strings = Arrays.asList("apple", "", "banana", "", "cherry", "date", "");
+
+//========================================================================================================
+
+Exercise 8: Creating a List of Squares
+
+Task: Given a list of integers, create a new list containing the square of each number.
+
+List<Integer> createSquaresList(List<Integer> numbers);
+
+Setup:
+
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);
+
+//========================================================================================================
+
+Exercise 9: Counting Strings with More Than 3 Characters
+
+Task: Given a list of strings, count how many strings have more than 3 characters.
+
+long countLongStrings(List<String> strings);
+
+Setup:
+
+List<String> strings = Arrays.asList("ant", "bird", "cat", "elephant", "dog");
+
+//========================================================================================================
+
+Exercise 10: Finding Minimum and Maximum Values
+
+Task: Given a list of integers, find the minimum and maximum values. Return an Optional<Integer> for both.
+
+Optional<Integer> findMinValue(List<Integer> numbers);
+Optional<Integer> findMaxValue(List<Integer> numbers);
+
+Setup:
+
+List<Integer> numbers = Arrays.asList(9, 5, 3, 8, 2, 7, 4, 6, 1);

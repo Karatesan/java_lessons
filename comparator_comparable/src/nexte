@@ -1,0 +1,32 @@
+Conditionale
+    if- else
+    && II
+    terniery
+    switch
+Enumy:
+    public enum Day {
+        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY
+    }
+            Day d = Day.FRIDAY;
+            String s = "MONDAY";
+            d = Day.valueOf(s);
+Petle:
+while
+doWhile
+for
+for each
+break
+continue
+
+Arrays Class (java.util.Arrays):
+sort(T[] a): Sorts the specified array of objects into ascending order.
+binarySearch(T[] a, T key): Searches the specified array for the specified object using the binary search algorithm.
+copyOf(T[] original, int newLength): Copies the specified array, truncating or padding with nulls (if necessary) so the copy has the specified length.
+equals(T[] a, T[] a2): Returns true if the two specified arrays of objects are equal to one another.
+fill(T[] a, T val): Assigns the specified value to each element of the specified array.
+Collections Class (java.util.Collections):
+sort(List<T> list): Sorts the specified list into ascending order, according to the natural ordering of its elements.
+binarySearch(List<? extends Comparable<? super T>> list, T key): Searches the specified list for the specified object using the binary search algorithm.
+reverse(List<?> list): Reverses the order of the elements in the specified list.
+addAll(Collection<? super T> c, T... elements): Adds all of the specified elements to the specified collection.
+max(Collection<? extends T> coll): Returns the maximum element of the given collection, according to the natural ordering of its elements.

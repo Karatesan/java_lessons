@@ -1,0 +1,1 @@
+Projects showcasing how to build modular maven project. It contains one project that teaches how to use annotations (on field,method and class level, using Runtime retention). And another that defines custom builder annotation and processor that creates file with builder class for annotated class.  

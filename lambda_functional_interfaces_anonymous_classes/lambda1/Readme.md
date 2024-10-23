@@ -1,0 +1,1 @@
+Project showing how lamda expression works in java, how to write it, use it and combine with functional interfaces.

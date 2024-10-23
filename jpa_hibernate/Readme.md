@@ -1,0 +1,1 @@
+Project showing how to create connection to database using persistence.xml file in maven project using jpa with hibernate to map entities.

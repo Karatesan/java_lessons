@@ -1,0 +1,1 @@
+This project shows how to write basic tests in java project using JUnit and Mockito.

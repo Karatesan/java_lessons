@@ -1,0 +1,1 @@
+Simple java project to showcase what is servlet for explaining how does spring work internally (dispatcher servlet).
